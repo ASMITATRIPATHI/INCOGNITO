@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Graphica</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Logo</a>
+      <div id="toggle"></div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#vido">Home</a></li>
+          <li><a href="#discover">Discover</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#contact">Conatct</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="about">
+      <div class="about-heading">
+        <h1>About Us</h1>
+      </div>
+      <div class="about-para">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+          voluptatem, quam nostrum, inventore incidunt quas quis alias maiores
+          ipsam, dolorem nemo. Pariatur, cupiditate corporis consequuntur quis
+          facilis ipsa impedit eaque officia quisquam cum harum laboriosam vel
+          voluptatum quas! Illum totam similique ea non, molestiae magni
+          deserunt aut odio voluptates doloremque eaque possimus quidem
+          praesentium fugit asperiores? Fugiat placeat aut temporibus veritatis
+          itaque velit nemo, id hic doloremque cupiditate qui dolorem eligendi
+          enim molestias quis commodi tempore optio libero excepturi esse animi
+          distinctio sint! Sequi est, iure obcaecati delectus natus ea sed
+          aliquid necessitatibus illo. Libero fugiat sequi perferendis delectus
+          odio.
+        </p>
+      </div>
+      
+    </section>
+    <!-- --------------- java script -------------  -->
+    <script>
+      const header = document.getElementById("header");
+      const toggle = document.getElementById("toggle");
+      const navbar = document.getElementById("navbar");
+      document.onclick = function (e) {
+        if (
+          e.target.id !== "header" &&
+          e.target.id !== "toggle" &&
+          e.target.id !== "navbar"
+        ) {
+          toggle.classList.remove("active");
+          navbar.classList.remove("active");
+        }
+      };
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        navbar.classList.toggle("active");
+      };
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
