@@ -1,6 +1,6 @@
 
 /*-------- navbar -----------*/
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,7 +33,17 @@
     padding-left: 20px;
     text-decoration: none;
   }
-  #toggle {
+  .logo {
+    height: 60px;
+    color: #12334e;
+    cursor: pointer;
+    padding-left: 20px;
+    backdrop-filter: blur(10px);
+  }
+  .logo img{
+    width: 120px;
+  } */
+  /* #toggle {
     position: absolute;
     top: 0;
     right: 0;
@@ -138,7 +148,7 @@
       justify-self: center;
       align-items: center;
     }
-  }
+  } */
 
 /*------- card---------*/
 body{
@@ -156,7 +166,7 @@ body{
     left: 50px;
     background: rgb(217, 93, 228);
     margin-left: 30px;
-    margin-top: 70px;
+    margin-top: 80px;
     border-radius: 15px;
 
 
@@ -200,7 +210,7 @@ body{
     align-items: flex-end;
     transition: 0.5s ease-in-out;
     margin-left: 40px;
-    top: 100px;
+    top: 0px;
     margin-bottom: 50px;
     overflow: hidden;
     margin-right: 5px;
@@ -216,7 +226,7 @@ body{
     align-items: flex-end;
     transition: 0.5s ease-in-out;
     margin-left: 40px;
-    top: 100px;
+    top: 0px;
     margin-bottom: 50px;
     overflow: hidden;
     margin-right: 5px;
@@ -336,8 +346,9 @@ body{
         height: 250px;
         width: 150px;
         margin: 5px;
-        top: 280px;
-        right: 240px;
+        top: 350px;
+        right: 290px;
+        
         
     }
     .card img{
