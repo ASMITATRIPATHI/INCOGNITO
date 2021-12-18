@@ -19,7 +19,7 @@
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     z-index: 2000;
   }
-  .logo {
+   /* .logo {
     height: 60px;
     line-height: 60px;
     color: #12334e;
@@ -29,14 +29,14 @@
     cursor: pointer;
     padding-left: 20px;
     text-decoration: none;
-  }
+  }  */
   .logo {
     height: 60px;
     color: #12334e;
     cursor: pointer;
     padding-left: 20px;
     backdrop-filter: blur(10px);
-  }
+  } 
   .logo img{
     width: 120px;
   }
