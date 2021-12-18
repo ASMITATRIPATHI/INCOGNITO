@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India</title>
+    <link rel="stylesheet" href="india.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Logo</a> 
+        <div id="toggle"></div>
+        <div id="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Conatct</a></li>
+          </ul>
+        </div>
+      </header>
+    
+         <section class="cardhover">
+        <div class="card">
+            <div class="cardimg"><img src="guj.jpg"></div>
+            <h2>GUJARAT</h2>
+            <p>1 to</p>
+            <button><a href="">WANDER</a></button>
+        </div>
+        <div class="card">
+            <div class="cardimg"><img src="maha.jpg"></div>
+            <h2>MAHARASHTRA</h2>
+            <p>2 to</p>
+            <button> <a href="">WANDER</a> </button>
+        </div>
+        <div class="card">
+            <div class="cardimg"><img src="sikkim.jpg"></div>
+            <h2>SIKKIM</h2>
+            <p>3 to</p>
+            <button><a href="">WANDER</a></button>
+            
+            
+        </div>
+        <div class="card">
+            <div class="cardimg"><img src="india.jpg"  ></div>
+            <h2>DHEERAJ</h2>
+            <p>4 to</p>
+            <button><a href="">WANDER</a></button>
+        </div>
+  
+
+    </section>
+  <!-- ------------ java script ----------------  -->
+      <script>
+        const header = document.getElementById("header");
+        const toggle = document.getElementById("toggle");
+        const navbar = document.getElementById("navbar");
+        document.onclick = function(e){
+            if(e.target.id !=="header" && e.target.id !=="toggle" && e.target.id !=="navbar"){
+                toggle.classList.remove("active");
+                navbar.classList.remove("active") 
+            }
+        }
+        toggle.onclick = function(){
+            toggle.classList.toggle("active");
+            navbar.classList.toggle("active")
+        }
+  </script>
+    
+    
+    
+
+    
+    
+</body>
+</html>
