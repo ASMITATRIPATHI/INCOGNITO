@@ -193,10 +193,11 @@ section {
   width: 75vw;
   margin-top: -100vh;
   height: 100vh;
+  overflow: hidden;
 }
 
-video {
-  height: 40vh;
+.flag{
+  height: 30vh;
   margin-left: 20vw;
   width: 30vw;
   margin-bottom: 1vh;
@@ -206,9 +207,8 @@ video {
 
 .card-container {
   display: flex;
-
   border-radius: 20px;
-  margin-top: 10vh;
+  margin-top: 1vh;
 }
 
 .card {
@@ -232,31 +232,44 @@ video {
   padding: 5px;
   border-radius: 20px;
 }
+p{
+  
+  margin-left:3vw;
+  text-decoration:solid;
+  font-weight: bold;
+  font-size: 17px;
+  
+}
+p span{
+  color: #9051ff;
+}
 .currency {
   width: 69vw;
   height: 25vh;
   margin-left: 3vw;
   margin-right: 3vw;
   margin-bottom: 3vh;
+  padding: 2px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   background-image: linear-gradient(to right, #9672fb, #d772fb);
-  display: none;
+  
 }
 
 #opt {
   
   background-color: white;
-  width: 69vw;
+  width: 67vw;
   height: 5vh;
-  padding: 1px;
+  padding: 2px;
+  margin-left: -2px;
   border: 2px solid purple;
   border-radius: 10px 10px 10px 10px;
   
 }
 input {
   margin-top: 2vh;
-  width: 69vw;
+  width: 67vw;
   height: 5vh;
   padding: 1px;
   border: 2px solid purple;
@@ -307,7 +320,7 @@ input {
     box-shadow: 0px 5px 10px -3px rgb(0 0 0 / 37%);
     cursor: pointer;
     transition: 0.5s;
-    font-size: 2vh;
+    font-size: 1vh;
   }
   .btns {
     margin-left: 15vw;
@@ -323,15 +336,17 @@ input {
     height: 100vh;
   }
 
-  video {
+  .flag {
     height: 30vh;
     width: 50vw;
+    margin-left: 25vw;
     border: 3px solid whitesmoke;
     box-shadow: 0px 5px 10px -3px rgb(0 0 0 / 50%);
   }
   .card-container {
     display: flex;
     border-radius: 20px;
+   
   }
   .card {
     height: 30vh;
@@ -350,5 +365,63 @@ input {
     height: 100%;
     padding: 5px;
     border-radius: 20px;
+  }
+  p{
+    text-align: center;
+
+  }
+  p span{
+    color: #9051ff;
+  }
+  .currency {
+    width: 80vw;
+    height: 27vh;
+    margin-left: 10vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    padding: 2px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #9672fb, #d772fb);
+    
+  }
+  
+  #opt {
+    
+    background-color: white;
+    width: 79vw;
+    height: 5vh;
+    padding: 1px;
+    
+    border: 2px solid purple;
+    border-radius: 10px 10px 10px 10px;
+    
+  }
+  input {
+    margin-top: 2vh;
+    width: 79vw;
+    height: 5vh;
+    padding: 1px;
+    
+    border: 2px solid purple;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .click {
+    display: block;
+    width: 13vw;
+    height: 5vh;
+    border: none;
+    background-color: white;
+  
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px -3px rgb(0 0 0 / 37%);
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 2vh;
+  }
+  .click:hover {
+    font-size: 3vh;
+    width: 14vw;
   }
 }
