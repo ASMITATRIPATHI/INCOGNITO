@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fuzzy+Bubbles:wght@700&family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fuzzy+Bubbles:wght@400;700&family=Lobster&family=Roboto&display=swap');
+/* contact us page */
+/* adding background image */
+.heading{
+    background-image: url("pexels-s-migaj-747964.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    font-weight: 600;
+    
+    
+    
+
+}
+.heading .contact{
+    font-family: 'Bakbak One', cursive;
+    font-size: 50px;
+    padding-top: 80px;
+    color: black;
+    
+}
+.heading .quotes{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.team{
+  font-family: 'Bakbak One', cursive;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(56, 57, 58);
+  height: 10vh;
+
+
+}
+.content{
+  box-sizing: border-box;
+}
+/* making card */
+.maincontainer{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  
+
+  
+}
+.card{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  
+
+}
+.front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;  
+  background-color: rgb(83, 26, 136);
+  color:whitesmoke;
+}
+.back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;  
+  background-color: rgb(71, 22, 117);
+  color:whitesmoke;
+  transform: rotateY(180deg);
+}
+.card:hover{
+  transform: rotateY(180deg);
+}
+.front img{
+  height: 100%;
+  width: 100%;
+
+}
+.all-cards{
+  display: flex;
+  justify-content: space-between;
+}
+/* responsive cards */
+@media screen and (max-width: 900px){
+  .all-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .maincontainer{
+    margin-top: 15vh;
+    margin-left: 30% ;
+  }
+  .team{
+    margin-top: 10vh;
+    font-size: 20px;
+  }
+
+} 
