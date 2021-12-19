@@ -136,7 +136,6 @@ section {
   }
 }
 
-
 /* side navabar for particular place */
 
 .sideNavbar {
@@ -146,14 +145,14 @@ section {
   height: 100vh;
   box-shadow: black;
   background-image: linear-gradient(to right, #9672fb, #d772fb);
-  
+
   margin-left: 0px;
 }
 .navName {
   width: 50%;
   height: 10vh;
   padding-top: 10vh;
-  
+
   border-radius: 5px 5px 5px 5px;
   box-shadow: none;
   margin-bottom: 10vh;
@@ -196,7 +195,7 @@ section {
   overflow: hidden;
 }
 
-.flag{
+.flag {
   height: 30vh;
   margin-left: 20vw;
   width: 30vw;
@@ -218,7 +217,6 @@ section {
   margin-right: 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  
 }
 
 .card:hover {
@@ -232,15 +230,13 @@ section {
   padding: 5px;
   border-radius: 20px;
 }
-p{
-  
-  margin-left:3vw;
-  text-decoration:solid;
+p {
+  margin-left: 3vw;
+  text-decoration: solid;
   font-weight: bold;
   font-size: 17px;
-  
 }
-p span{
+p span {
   color: #9051ff;
 }
 .currency {
@@ -253,11 +249,9 @@ p span{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   background-image: linear-gradient(to right, #9672fb, #d772fb);
-  
 }
 
 #opt {
-  
   background-color: white;
   width: 67vw;
   height: 5vh;
@@ -265,7 +259,6 @@ p span{
   margin-left: -2px;
   border: 2px solid purple;
   border-radius: 10px 10px 10px 10px;
-  
 }
 input {
   margin-top: 2vh;
@@ -346,7 +339,6 @@ input {
   .card-container {
     display: flex;
     border-radius: 20px;
-   
   }
   .card {
     height: 30vh;
@@ -366,11 +358,10 @@ input {
     padding: 5px;
     border-radius: 20px;
   }
-  p{
+  p {
     text-align: center;
-
   }
-  p span{
+  p span {
     color: #9051ff;
   }
   .currency {
@@ -384,26 +375,23 @@ input {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-image: linear-gradient(to right, #9672fb, #d772fb);
-    
   }
-  
+
   #opt {
-    
     background-color: white;
     width: 79vw;
     height: 5vh;
     padding: 1px;
-    
+
     border: 2px solid purple;
     border-radius: 10px 10px 10px 10px;
-    
   }
   input {
     margin-top: 2vh;
     width: 79vw;
     height: 5vh;
     padding: 1px;
-    
+
     border: 2px solid purple;
     border-radius: 10px 10px 10px 10px;
   }
@@ -413,7 +401,7 @@ input {
     height: 5vh;
     border: none;
     background-color: white;
-  
+
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 5px 10px -3px rgb(0 0 0 / 37%);
     cursor: pointer;
