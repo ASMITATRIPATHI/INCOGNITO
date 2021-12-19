@@ -266,16 +266,6 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.cover div img {
-  width: 40px;
-  margin: 0 0 30px;
-  cursor: pointer;
-}
-.cover div h4 {
-  color: #f6f6f9;
-  font-family: 500;
-  font-size: 25px;
-}
 /* ------------- social media ------------------- */
 .social {
   display: flex;
