@@ -457,6 +457,10 @@ section {
 .about-heading{
   margin:5vh 0;
 }
+.about-heading h1{
+  font-size: 28px;
+  letter-spacing: 4px;
+}
 .about-para{
   margin: 0 7vw;
   text-align: center;
