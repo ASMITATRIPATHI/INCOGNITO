@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>India</title>
-    <link rel="stylesheet" href="countries.css">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Sikkim Cuisine</title>
+    <link rel="stylesheet" href="sikkcuisine.css">
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="header">
-      <a href="#" class="logo">Logo</a> 
-      <div id="toggle"></div>
-      <div id="navbar">
-        <ul>
-          <li><a href="index_landing.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="form.html">Join Us</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </header>
+     <!-- Navbar -->
+     <header class="header">
+        <a href="#" class="logo">Logo</a> 
+        <div id="toggle"></div>
+        <div id="navbar">
+          <ul>
+            <li><a href="index_landing.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="form.html">Join Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </header>
+  
+    <!-- adding heading -->
+    <div class="heading">
+        <p>CUISINE</p>
+    </div>
+    <!-- adding cuisine image and info -->
+    <div class="cuisine">
+        <p class="name">JAPAN CUISINE</p>
+        <img src="jcuisine.jpg" alt="Cuisine">
+        <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure alias laborum adipisci nisi voluptates repudiandae placeat ab impedit reiciendis suscipit veniam sed sunt, ut maiores animi ducimus mollitia odit ex?</p>
 
-<!-- side navigation bar -->
-
+    </div>
+  <!-- side navigation bar -->
+<!-- <div class="main"> -->
     <div class="sideNavbar">
         <center>
             <div class="navName">
-                <h2>JAPAN</h2>
+                <h2>Japan</h2>
             </div>
             <div class="navPlace">
-                <h4>TOKYO</h4>
+                <h4>Tokyo</h4>
             </div>
         </center>
         <div class="btn">
             <button><a href="japanfolk.html"><i class="bi bi-file-music"></i><span> Music And Dance</span></a></button>
-            <button><a href="japcuisine.html"><i class="bi bi-cup-straw"></i><span> Cuisine</span></a></button>
+            <button><a href="#"><i class="bi bi-cup-straw"></i><span> Cuisine</span></a></button>
             <button><a href="#"><i class="bi bi-cart"></i><span> Attire</span></a></button>
             <button><a href="#"><i class="bi bi-info-circle"></i><span> Fact</span></a></button>
             
@@ -50,10 +58,15 @@
         
         
     </div>
-    <div class="content">
-        <img class="flag" src="FLAGJ.png" alt="Country Flag">
+    <!-- <div class="content">
+        <video  autoplay>
+            <source src="FLAGJ.png" type="video/mp4">
+          
+          Your browser does not support the video tag.
+          </video>
         
-           <p>Currency Converter: <span>From Rupees To Japanese Yen </span> </p>
+            <!-- <img  class="flag" src="/detailImages/indianFlag.jpg" alt="Country Flag"> -->
+            <!-- <img class="ruppee" src="/detailImages/ruppee.png" alt="Indian ruppee"> -->
             <div class="currency" >
                 <form action="">
                     <label for="amount" > Amount</label>
@@ -62,7 +75,7 @@
                     <br>
                     <label for="output">output</label>
                     <p id="opt"></p>
-                    
+                    <!-- <output id="opt" name="x"></output> -->
                     <center><button class="click" type="button" onclick="result()">Change</button></center>
                 </form>
             
@@ -71,24 +84,24 @@
             <div class="card-container">
 
                 <div class="card">
-                    <img class="cardImage" src="TJ1.jpg" alt="Places in Japan">
+                    <img class="cardImage" src="S2.jpg" alt="">
                 </div>
                 <div class="card">
-                    <img class="cardImage" src="treeJ.jpg" alt="Cherry Blossoms">
+                    <img class="cardImage" src="ATTIRE.jpg" alt="">
                 </div>
                 <div class="card">
-                    <img  class="cardImage" src="TH2.jpg" alt="Pagodas">
+                    <img  class="cardImage" src="S3.jpg" alt="">
                 </div>
             </div>
         
     </div>
     
-
+<!-- </div> -->
 <!-- bottom navigation bar -->
-<div class="bottomNavbar">
+<div class="bottomNavbar"> -->
     
     <div class="btns">
-        <button><a href=""><i class="bi bi-file-music"></i></a></button>
+        <button><a href="/music.html"><i class="bi bi-file-music"></i></a></button>
         <button><a href="#"><i class="bi bi-cup-straw"></i></a></button>
         <button><a href="#"><i class="bi bi-cart"></i></a></button>
         <button><a href="#"><i class="bi bi-info-circle"></i></a></button>
@@ -99,6 +112,12 @@
 </div>    
 
 
+    <!-- <section  id="home">Home</section>
+    <section id="about">About</section>
+    <section id="services">Services</section>
+    <section id="team">Team</section>
+    <section id="portfolio">Portfolio</section>
+    <section id="contact">Contact</section> -->
 <!-- ------------ java script ----------------  -->
     <script>
       const header = document.getElementById("header");
@@ -117,12 +136,12 @@
       function result(){
           var numberInput= document.getElementById("noInput").value;
           
-          var output= numberInput*(0.67);
+          var output= numberInput*(0.0012);
           document.getElementById("opt").innerHTML = output;
          
       }
 
       
-</script>
+</script>  
 </body>
 </html>

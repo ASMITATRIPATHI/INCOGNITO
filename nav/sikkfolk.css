@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.sideNavbar{
+    
+    margin-top: 10vh;
+    padding-top: 5vh;
+    width:22vw;
+    height: 100vh;
+    height: auto;
+    box-shadow: black;
+    background-image: linear-gradient(to right, #9672fb, #d772fb);
+    /* border: 3px solid black; */
+    /* border: 3px solid #9672fb; */
+    margin-left: 0px;
+
+}
+.navName{
+    width: 50%;
+    height: 10vh;
+    padding-top: 10vh;
+    /* background-image: linear-gradient(to right, #9672fb, #d772fb); */
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: none;
+    margin-bottom: 10vh;
+
+}
+
+.sideNavbar button{
+@ -40,9 +39,6 @@
+.sideNavbar button:hover{
+    font-size:3vh;
+    width: 14vw;
+    
+
+
+}
+.sideNavbar a{
+    margin-top: 10vh;
+@ -51,7 +47,6 @@
+    text-decoration: none;
+    
+}
+/* adding music and dance */
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+@ -67,4 +62,26 @@
+    background-image: linear-gradient(to right, #9672fb, #d772fb);
+    color: black;
+    align-items: center;
+}
+.down{
+    display: flex;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.music{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.dance{
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+}
+.pic-d{
+    width: 30vw;
+}
