@@ -136,12 +136,6 @@ section {
   }
 }
 
-/* main body */
-/* .main{
-    background-color: rgb(236, 224, 236);
-} */
-/* side navabar for particular place */
-
 .sideNavbar {
   margin-top: 10vh;
   padding-top: 5vh;
@@ -149,15 +143,12 @@ section {
   height: 100vh;
   box-shadow: black;
   background-image: linear-gradient(to right, #9672fb, #d772fb);
-  /* border: 3px solid black; */
-  /* border: 3px solid #9672fb; */
   margin-left: 0px;
 }
 .navName {
   width: 50%;
   height: 10vh;
   padding-top: 10vh;
-  /* background-image: linear-gradient(to right, #9672fb, #d772fb); */
   border-radius: 5px 5px 5px 5px;
   box-shadow: none;
   margin-bottom: 10vh;
