@@ -136,7 +136,10 @@ section {
   }
 }
 
-
+/* main body */
+/* .main{
+    background-color: rgb(236, 224, 236);
+} */
 /* side navabar for particular place */
 
 .sideNavbar {
@@ -146,14 +149,15 @@ section {
   height: 100vh;
   box-shadow: black;
   background-image: linear-gradient(to right, #9672fb, #d772fb);
-  
+  /* border: 3px solid black; */
+  /* border: 3px solid #9672fb; */
   margin-left: 0px;
 }
 .navName {
   width: 50%;
   height: 10vh;
   padding-top: 10vh;
-  
+  /* background-image: linear-gradient(to right, #9672fb, #d772fb); */
   border-radius: 5px 5px 5px 5px;
   box-shadow: none;
   margin-bottom: 10vh;
@@ -218,7 +222,7 @@ video {
   margin-right: 3vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.1s;
-  
+  /* border-radius: 60px 20px 20px 20px; */
 }
 
 .card:hover {
@@ -245,14 +249,14 @@ video {
 }
 
 #opt {
-  
+  /* margin-top: 3vh; */
   background-color: white;
   width: 69vw;
   height: 5vh;
   padding: 1px;
   border: 2px solid purple;
   border-radius: 10px 10px 10px 10px;
-  
+  /* background-color: blue; */
 }
 input {
   margin-top: 2vh;
